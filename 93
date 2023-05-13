@@ -1,0 +1,13 @@
+d={}
+n=int(input("enter dictionary size :"))
+for i in range(n):
+    b=input("key name :"+str(i+1)+":")
+    c=int(input("value :"+str(i+1)+":"))
+    d[b]=c
+key=input("enter key to remove :")
+if key in d:
+    del d[key]
+    print("your key removed form dictionary ;")
+else:
+    print("the key not found in dictionary :")
+print(d)

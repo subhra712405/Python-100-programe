@@ -1,0 +1,14 @@
+d={}
+n=int(input("enter dictionary size :"))
+for i in range(n):
+    b=input("key name :"+str(i+1)+":")
+    c=int(input("value :"+str(i+1)+":"))
+    d[b]=c
+value=int(input("enter value to remove :"))
+reomove=[]
+for key,value in d.items():
+    if value==c:
+        reomove.append(key)
+for key in reomove:
+    del d[key]
+print(d)

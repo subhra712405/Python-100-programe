@@ -1,0 +1,9 @@
+from functools import reduce
+a=[]
+n=input("enter the size of list :")
+for i in range(int(n)):
+    val=int(input("enter the eliment ;"))
+    a.append(val)
+my_list=a
+avarege=reduce(lambda x,y :(x+y),my_list )/int(n)
+print("the avarege is ",avarege)

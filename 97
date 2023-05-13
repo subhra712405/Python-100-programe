@@ -1,0 +1,17 @@
+a=[]
+list=int(input("enter the size of list"))
+for i in range(list):
+    val=int(input("enter the value"))
+   
+    a.append(val)
+    a.sort()
+print("the original list is ",a)
+b=[]
+list1=int(input("enter the size of list"))
+for i in range(list1):
+    val1=int(input("enter the value"))
+   
+    b.append(val1)
+    b.sort()
+print("the original list is ",b)
+print("the union of two list is ",set(a).union(set(b)))

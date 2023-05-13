@@ -1,0 +1,8 @@
+a=[]
+n=int(input("enter size"))
+for i in range(n):
+    val=str(input("enter the eliment "))
+    a.append(val)
+my=a
+my=[s for s in my if s.strip()]
+print(my)

@@ -1,0 +1,6 @@
+str=input("enter :")
+if str.isdigit():
+    int_value=int(str)
+    print(" string contains only digit :")
+else:
+    print(" Does not contain only digit :")
